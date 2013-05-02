@@ -84,7 +84,7 @@ namespace MvcApplication.Models
         public string Password { get; set; }
 
         [DataType(DataType.Password)]
-        [Display(Name = "Confirm password")]
+        [Display(Name = "Confirmar password")]
         [Compare("Password", ErrorMessage = "O password e a Confirmação devem ser iguais.")]
         public string ConfirmPassword { get; set; }
     }
